@@ -25,8 +25,22 @@ body{
     overflow: hidden;
 }
 
+h4{
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+}
+
+h4 span{
+    font-size: 2.5rem;
+    background-color: #8e44ad; 
+    padding: 5px 12px; 
+    border-radius: 25px; 
+    color: #fff;
+}
+
 .quiz-header{
-    padding: 4rem;
+    padding: 1rem 4rem 4rem 4rem;
 }
 
 h2{
