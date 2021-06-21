@@ -42,6 +42,7 @@ const quizData = [
 ];
 
 const answerElement = document.querySelectorAll(".answer");
+const quiz = document.getElementById("quiz");
 const questionElement = document.getElementById('question');
 const a_text = document.getElementById('a_text');
 const b_text = document.getElementById('b_text');
@@ -96,7 +97,7 @@ submitBtn.addEventListener('click', () => {
             loadQuiz();
         }
         else{
-            alert("Congratulations. You have finished quiz ...");
+            quiz.innerHTML = `<h2>You answered correctly at ${score}/${quizData.length} questions.</h2>`;
         }
     }
 })
