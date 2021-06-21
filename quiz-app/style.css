@@ -30,6 +30,13 @@ body{
 }
 
 h2{
+    text-align: center;
+    margin: 0;
+}
+
+.final-answer{
+    padding: 1rem;
+    text-align: center;
     margin: 0;
 }
 
@@ -61,4 +68,9 @@ button{
 
 button:hover{
     background-color: #732d91;
+}
+
+button:focus{
+    background-color: #732d91;
+    outline: none;
 }
