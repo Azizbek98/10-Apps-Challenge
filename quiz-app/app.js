@@ -49,6 +49,7 @@ const d_text = document.getElementById('d_text');
 const submitBtn = document.getElementById('submit');
 
 let currentQuestion = 0;
+let answer = undefined;
 
 loadQuiz();
 
@@ -62,7 +63,22 @@ function loadQuiz(){
     d_text.innerHTML = currentQuizData.d;
 }
 
+let getSelected = () => {
+    const answerElement = document.querySelectorAll("answer");
+
+    answerElement.forEach((answerElement) => {
+        if(answerElement.checked){
+            answer = answerElement.id;
+        }
+    });
+}
+
 submitBtn.addEventListener('click', () => {
     currentQuestion++;
-    loadQuiz();
+    if(currentQuestion < quizData.length){
+        loadQuiz();
+    }
+    else{
+        alert("Congratulations. You have finished quiz ...");
+    }
 })
