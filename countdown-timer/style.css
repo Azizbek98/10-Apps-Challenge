@@ -39,7 +39,10 @@ h1{
 }
 
 .countdown-element span{
+    padding: 1px 12px;
     font-size: 1.5rem;
+    border-radius: 12px;
+    background-color: blueviolet;
 }
 
 h4{
