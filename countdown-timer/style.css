@@ -5,6 +5,9 @@
 }
 
 body{
+    background: url('./imgs/background.jpg') no-repeat;
+    background-size: cover;
+    min-height: 100vh;
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
