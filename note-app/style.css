@@ -33,3 +33,16 @@ body{
     margin-left: 0.5rem;
     color: #fff;
 }
+
+.notes .main{
+    height: 100%;
+    width: 100%;
+}
+
+.notes textarea{
+    outline: none;
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-family: inherit;
+}
