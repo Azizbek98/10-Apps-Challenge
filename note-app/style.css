@@ -47,3 +47,7 @@ body{
     border: none;
     font-family: inherit;
 }
+
+.notes .hidden{
+    display: none;
+}
