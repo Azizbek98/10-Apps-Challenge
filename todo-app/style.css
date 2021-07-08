@@ -35,5 +35,8 @@ form{
 }
 
 .todos{
-    
+    background: #fff;
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
