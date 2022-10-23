@@ -1,0 +1,11 @@
+{
+  "name": "tickets-reserve",
+  "version": "1.0.0",
+  "description": "Ticket ordering part of real project",
+  "main": "index.html",
+  "scripts": {
+    "test": "npm run serve"
+  },
+  "author": "Samatov Azizbek",
+  "license": "ISC"
+}
